@@ -699,7 +699,7 @@ contract RobotGPT is Context, IERC20, Ownable {
 
     uint256 public _marketingFee = 1;
     uint256 private _previousMarketingFee = _marketingFee;
-    address payable public marketingWallet = payable(0x3BB222C56357967F1DE15D74C21B6f3059Ef3dBb);
+    address payable public marketingWallet = payable(0x346a4f6D03612599Fb67366cb16787dfFa3fF043);
 
     IUniswapV2Router02 public  uniswapV2Router;
     address public  uniswapV2Pair;
